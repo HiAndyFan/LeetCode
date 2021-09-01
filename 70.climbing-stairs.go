@@ -6,7 +6,7 @@
 
 // @lc code=start
 func climbStairs(n int) int {
-	rt := make([]int, n+1)
+	rt := make([]int, n+3)
 	rt[1] = 1
 	rt[2] = 2
 	for i := 3; i <= n; i++ {
